@@ -81,14 +81,14 @@ SHAP explanations were also translated into plain-language dashboard reasons suc
 > **Note:** SHAP explains how the trained model generated its predictions; it does not establish that these features caused placement or non-placement outcomes.
 
 ### Model Performance (Confusion Matrix)
-![images/model_performance.png]
+![model performance](images/model_performance.png)
 
 ### Power BI Dashboard
 Prediction results were exported to Power BI so CDC staff could review risk levels, identify high- and medium-risk students, view SHAP-based risk drivers, and review recommended support categories and interventions.
 
-![Power BI Risk Overview Dashboard](data/PowerBI_page_1.png)
+![Power BI Risk Overview Dashboard](images/PowerBI_page_1.png)
 
-![Power BI High and Medium Risk Student Support Dashboard](data/PowerBI_page_2.png)
+![Power BI High and Medium Risk Student Support Dashboard](images/PowerBI_page_2.png)
 
 ## 🚀 How to Run the Inference Pipeline
 1. Clone this repository.
