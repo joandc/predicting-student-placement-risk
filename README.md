@@ -2,7 +2,7 @@
 
 This repository contains a **capstone Machine Learning project** designed as a decision-support prototype for a **Career Development Cell (CDC)**. 
 
-The system predicts whether a student is at risk of missing a career placement, allowing university staff to **proactively deliver targeted support and intervention** before recruitment activities begin.
+The system predicts whether a student may be at risk of not securing a placement, helping career support staff identify students who may benefit from earlier support before placement or recruitment activities begin.
 
 **Primary notebook:** `capstone_student_placement_risk_prediction.ipynb`
 
@@ -66,7 +66,7 @@ The workflow included:
 *(Note: Core training scripts and raw proprietary datasets are excluded to protect intellectual property. Below are the finalized performance insights.)*
 
 ### Feature Importance
-![images/SHAP_features.png]
+![SHAP bar plot](images/SHAP_features.png)
 
 SHAP analysis was used to explain the final Logistic Regression model. The most influential features included:
 
@@ -86,9 +86,9 @@ SHAP explanations were also translated into plain-language dashboard reasons suc
 ### Power BI Dashboard
 Prediction results were exported to Power BI so CDC staff could review risk levels, identify high- and medium-risk students, view SHAP-based risk drivers, and review recommended support categories and interventions.
 
-![Power BI Risk Overview Dashboard](screenshot-1.png)
+![Power BI Risk Overview Dashboard](data/PowerBI_page_1.png)
 
-![Power BI High and Medium Risk Student Support Dashboard](screenshot-2.png)
+![Power BI High and Medium Risk Student Support Dashboard](data/PowerBI_page_2.png)
 
 ## 🚀 How to Run the Inference Pipeline
 1. Clone this repository.
