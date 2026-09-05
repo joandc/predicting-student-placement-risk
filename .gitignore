@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# ==========================================
+# Machine Learning Extensions (Add these!)
+# ==========================================
+
+# Ignore massive or private datasets
+*.csv
+*.xlsx
+*.json
+data/
+
+# Ignore trained model binary files (protects your intellectual property)
+*.pkl
+*.pkl.gz
+*.h5
+*.joblib
+*.onnx
+.ipynb_checkpoints/
+
